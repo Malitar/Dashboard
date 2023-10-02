@@ -1,6 +1,15 @@
 .container {
-	max-width: 36rem;
-	padding: 0 1rem;
-	margin: 3rem auto 6rem;
-	background-color: orange;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	width: 25vw;
+	height: auto;
+	background-color: #D2D2D2;
+	border-radius: .25rem;
+	
 }
