@@ -11,5 +11,8 @@
 	height: auto;
 	background-color: #D2D2D2;
 	border-radius: .25rem;
-	
+}
+
+.backToHome {
+	@apply bg-slate-950 text-yellow-100 p-4 rounded hover:bg-slate-200 hover:text-gray-800 transition-all duration-300 shadow-sm;
 }

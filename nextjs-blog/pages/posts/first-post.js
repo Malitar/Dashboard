@@ -20,9 +20,9 @@ export default function FirstPost() {
 				
 			<div className={styles.content}>
 				<h1>First Post</h1>
-				<h2 className={styles.grid}>
+				{/* <h2 className={styles.grid}>
 					<Link href="/">Back to Dashboard</Link>
-				</h2>
+				</h2> */}
 			</div>
 		</Layout>
 	</>
