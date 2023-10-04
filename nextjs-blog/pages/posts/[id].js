@@ -16,7 +16,7 @@ export async function getStaticProps({ params }) {
 
 	// How does params.id from getStaticProps({ params }) know the key is named id?
 	// The value from the file name.
-	const postData = getPostData(params.id);
+	const postData = await getPostData(params.id);
 	return {
 		props: {
 			postData,
@@ -47,6 +47,8 @@ export default function Post({ postData }) {
 			{postData.id}
 			<br />
 			{postData.date}
+			<br />
+			<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
 		</Layout>
 	);
 }
