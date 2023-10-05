@@ -50,3 +50,11 @@
   .lightText {
 	color: #666;
   }
+
+  .boxLight {
+	@apply p-4 my-4 border-fuchsia-400 border-2 border-solid bg-slate-400 bg-opacity-25 rounded;
+  }
+
+  .flexContainer {
+	@apply flex flex-col m-4;
+  }

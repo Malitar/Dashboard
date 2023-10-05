@@ -56,7 +56,7 @@ export default function Post({ postData }) {
 					<Date dateString={postData.date} />
 				</div>
 				<br />
-				<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+				<div className={utilStyles.boxLight} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
 			</article>
 		</Layout>
 	);

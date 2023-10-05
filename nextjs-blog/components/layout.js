@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      
+      <div className={utilStyles.flexContainer}>
       <header className={styles.header}>
         {home ? (
           <>
@@ -57,6 +57,7 @@ export default function Layout({ children, home }) {
           <Link href="/">← Back to home</Link>
         </div>
       )}
+    </div>
     </div>
   );
 }
